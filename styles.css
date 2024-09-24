@@ -1,22 +1,26 @@
 
-/* Your CSS Code here. */
+/* General Body Styling */
 body {
-    background-color: #f0f0f0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-color: white;
 }
 
-.box {
-    width: 300px;
-    background-color: lightblue;
-    border: 15px solid blue;
-    padding: 50px;
-    margin: 20px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    box-sizing: border-box;
+/* Box Model Styling */
+.box-model {
+    width: 300px;                /* Width of the content */
+    padding: 50px;               /* Padding around the content */
+    border: 15px solid blue;     /* Border of 15px solid blue */
+    margin: 20px;                /* Margin around the box */
+    background-color: lightblue; /* Background color for the box */
+}
+
+/* Paragraph Styling Inside the Box */
+.box-model p {
+    margin: 0;
+    color: black;
+    font-family: monospace;
 }
